@@ -60,7 +60,8 @@ if __name__ == "__main__":
         ctx.printStatus()
 
         # get next action
-        choice = int(raw_input('choice: '))
+        choice = int(raw_input('choice: ')) # this is to force a merge error
 
+        # I think
         ctx.handleChoice(choice)
 
